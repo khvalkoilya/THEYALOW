@@ -1,0 +1,179 @@
+@font-face {
+    font-family: SegoeWP;
+    src: url("image/ofont.ru_Segoe WP.ttf"); 
+   }
+html {
+    font-size: 14px;
+}
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+main {
+    overflow: hidden;
+}
+
+header {
+    height: 10rem;
+    background-size:100%;
+    background: url('./image/Layer\ 20.png');
+}
+h1 {
+    margin-top: -60px;
+    padding-left: 272px;
+    font-size: 41px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    
+}
+.logo-container, .nav-container {
+    margin-left: 40px;
+}
+.logo-container{
+    position: relative;
+    width: 79px;
+    height: 79px;
+    padding-top: 30px;
+    padding-left: 142px;
+}
+.logo2 {
+    top: 30px;
+    left: 140px;
+    position: absolute;
+}
+.nav-container {
+    position: relative;
+    width: 453px;
+    height: 41px;
+    padding-left: 699px;
+    margin-top: -25px;
+}
+.nav2 {
+    top: -4px;
+    left: 695px;
+    opacity: 0.5;
+    position: absolute;  
+}
+.nav3 {
+    top: -8px;
+    left: 691px;
+    opacity: 0.5;
+    position: absolute;  
+}
+
+.topnav {
+    top: 0;
+    left: 699px;
+    position: absolute; 
+    width: 456px;
+    height: 44px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.topnav a{
+    text-decoration: none;
+    font-family: "SegoeWP";
+    font-size: 15.5px;
+    font-weight: bold;
+    color: rgb(185,148,3);
+    text-align: center;
+    padding: 13px 41px;
+}
+.about {
+    top: 12px;
+    left: 712px;
+    position: absolute;
+}
+.services{
+    top: 12px;
+    left: 870px;
+    position: absolute;
+}
+.contact{
+    top: 12px;
+    left: 1014px;
+    position: absolute;
+}
+.middle-border {
+    border-left: 1px solid rgb(185,148,3);
+    border-right: 1px solid rgb(185,148,3);
+}
+.topnav a:hover{
+    background-color: rgb(77, 74, 66);
+    color: rgb(185,148,3);
+}
+.video-container {
+    height: 30rem;
+    background: url('./image/Layer\ 20.png') 0 -10rem;
+    position: relative;
+    box-shadow: 0px 0px 15px #000;
+}
+video{
+    margin-top: 28px;
+    margin-left: 190px;
+}
+
+.menu {
+    height: 15rem;
+    box-shadow: 0px 0px 15px #000;
+}
+
+.second {
+    height: 509px;
+    background: url('./image/Layer\ 10\ copy\ 3.png');
+    box-shadow: 0px 0px 15px #000;
+}
+
+.conclusion {
+    height: 599px;
+    background: url("./image/Layer\ 32.png");
+}
+.down {
+    box-shadow: 0px 0px 15px #000;
+    height: 64px;
+    background: url("image/Layer\ 31@1X.png");
+    
+}
+
+video[poster]{
+    object-fit: none;
+    object-position: -150px 0px;
+}
+.play-ellipse {
+     opacity: 0.9;
+     position: absolute;
+     top: 160px;
+     left: 429px;
+} 
+.play-triangle{
+    position: absolute;
+    top: 177px;
+    left: 455px;
+}
+.record-opacity{
+    position: absolute;
+    top: 314px;
+    left: 271px;
+}
+.record-contrast{
+    position: absolute;
+    top: 302px;
+    left: 266px;
+}
+.play-small-back{
+    position: absolute;
+    top: 307px;
+    left: 219px;
+}
+.play-small-button{
+    width: 11px;
+    height: 15px;
+    position: absolute;
+    top: 313px;
+    left: 227px;
+    opacity: 0.5;
+}
