@@ -1,0 +1,259 @@
+@font-face {
+    font-family: SegoeWP;
+    src: url("image/ofont.ru_Segoe WP.ttf"); 
+   }
+html {
+    font-size: 14px;
+}
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+main {
+    overflow: hidden;
+}
+
+header {
+    height: 10rem;
+    background-size:100%;
+    background: url("image/Layer\ 20@1X.png");
+    background-size: cover;
+}
+header h1 {
+    margin-top: -58px;
+    padding-left: 243px;
+    font-size: 43.6px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    
+}
+.logo-container, .nav-container {
+    margin-left: 40px;
+}
+.logo-container{
+    position: relative;
+    padding-top: 36px;
+    padding-left: 113px;
+}
+.logo2 {
+    top: 34px;
+    left: 110px;
+    position: absolute;
+}
+.nav-container {
+    position: relative;
+    width: 453px;
+    height: 41px;
+    padding-left: 721px;
+    margin-top: -25px;
+}
+.nav2 {
+    top: -4px;
+    left: 717px;
+    opacity: 0.5;
+    position: absolute;  
+}
+.nav3 {
+    top: -8px;
+    left: 711px;
+    opacity: 0.5;
+    position: absolute;  
+}
+
+.topnav {
+    top: 0;
+    left: 720px;
+    position: absolute; 
+    width: 456px;
+    height: 44px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.topnav a{
+    text-decoration: none;
+    font-family: "SegoeWP";
+    font-size: 15.5px;
+    font-weight: bold;
+    color: rgb(185,148,3);
+    text-align: center;
+    padding: 13px 41px;
+}
+.about {
+    top: 12px;
+    left: 733px;
+    position: absolute;
+}
+.services{
+    top: 12px;
+    left: 890px;
+    position: absolute;
+}
+.contact{
+    top: 12px;
+    left: 1034px;
+    position: absolute;
+}
+.middle-border {
+    border-left: 1px solid rgb(185,148,3);
+    border-right: 1px solid rgb(185,148,3);
+}
+.topnav a:hover{
+    background-color: rgb(77, 74, 66);
+    color: rgb(185,148,3);
+}
+.video-container {
+    height: 33rem;
+    background: url("image/Layer\ 20@1X.png") 0 -10rem;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0px 0px 15px #000;
+}
+video{
+    margin-top: 44px;
+    margin-left: 156px;
+}
+
+.menu {
+    height: 16.3rem;
+}
+
+.second {
+    height: 38.4rem;
+    background: url('./image/Layer\ 10\ copy\ 3.png');
+    box-shadow: 0px 0px 15px #000;
+}
+
+.conclusion {
+    height: 37.7rem;
+    background: url("./image/Layer\ 32.png");
+}
+.down {
+    box-shadow: 0px 0px 15px #000;
+    height: 5rem;
+    background: url("image/Layer\ 31@1X.png");
+    
+}
+
+video[poster]{
+    object-fit: none;
+    object-position: -150px 0px;
+}
+.play-ellipse {
+     opacity: 0.9;
+     position: absolute;
+     top: 181px;
+     left: 417px;
+} 
+.play-triangle{
+    position: absolute;
+    top: 197px;
+    left: 445px;
+}
+.record-opacity{
+    position: absolute;
+    top: 344px;
+    left: 242px;
+    width: 430px;
+}
+.record-contrast{
+    position: absolute;
+    top: 331px;
+    left: 239px;
+    width: 436px;
+}
+.play-small-back{
+    position: absolute;
+    top: 336px;
+    left: 191px;
+}
+.play-small-button{
+    width: 10px;
+    height: 18px;
+    position: absolute;
+    top: 341px;
+    left: 200px;
+    opacity: 0.5;
+}
+.volume{
+    position: absolute;
+    top: 343px;
+    left: 707px;
+}
+.video-container h1 {
+    font-size: 64px;
+    letter-spacing: 2px;
+    color: #FFF;
+    font-family: "Asap";
+    font-weight: 400;
+    text-align: center;
+    word-spacing: 5px;
+    line-height: 1.25;
+    margin-top: -275px;
+    margin-left: 607px;
+}
+.video-container h1 span {
+    color:#f5c506;
+}
+.switch-back1{
+    position: absolute;
+    top: 182px;
+    left: 1px;
+}
+.switch-back2 {
+    position: absolute;
+    top: 182px;
+    left: 1348px;
+}
+.switch-pointer1{
+    position: absolute;
+    top: 202px;
+    left: 9px;
+
+}
+.switch-pointer2 {
+    position: absolute;
+    top: 199px;
+    left: 1359px;
+}
+.menu ul {
+    display:flex;
+    justify-content: space-around;
+    position: relative;
+}
+.menu ul li {
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Segoe UI";
+    font-weight: 300;
+    text-align: center;
+}
+.design {
+    position: absolute;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray; 
+    left: 146px;
+    top: 2px;
+    padding: 80px 75px 39px 93px;
+}
+.customise {
+    position: absolute;
+    left: 508px;
+    top: -1px;
+    padding: 57px 101px 38px 119px;
+}
+.free {
+    position: absolute;
+    left: 869px;
+    top: 0px;
+    padding: 74px 137px 22px 120px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+ul img {
+    visibility: hidden;
+}
