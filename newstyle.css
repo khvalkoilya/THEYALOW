@@ -15,7 +15,7 @@ main {
 
 header {
     height: 10rem;
-    background-size:100%;
+    
     background: url("image/Layer\ 20@1X.png");
     background-size: cover;
 }
@@ -119,11 +119,12 @@ video{
 
 .menu {
     height: 16.3rem;
+    background: url("./image/Layer\ 7@1X.png");
 }
 
 .second {
     height: 38.4rem;
-    background: url('./image/Layer\ 10\ copy\ 3.png');
+    background: url("./image/Layer\ 10\ copy\ 3.png");
     box-shadow: 0px 0px 15px #000;
 }
 
@@ -138,9 +139,9 @@ video{
     
 }
 
-video[poster]{
+.video-container video[poster]{
     object-fit: none;
-    object-position: -150px 0px;
+    object-position: -130px 0px;
 }
 .play-ellipse {
      opacity: 0.9;
@@ -192,7 +193,7 @@ video[poster]{
     text-align: center;
     word-spacing: 5px;
     line-height: 1.25;
-    margin-top: -275px;
+    margin-top: -325px;
     margin-left: 607px;
 }
 .video-container h1 span {
@@ -238,22 +239,78 @@ video[poster]{
     border-right: 1px solid gray; 
     left: 146px;
     top: 2px;
-    padding: 80px 75px 39px 93px;
+    padding: 157px 75px 39px 93px;
 }
 .customise {
     position: absolute;
     left: 508px;
     top: -1px;
-    padding: 57px 101px 38px 119px;
+    padding: 161px 101px 38px 119px;
 }
 .free {
     position: absolute;
     left: 869px;
     top: 0px;
-    padding: 74px 137px 22px 120px;
+    padding: 161px 137px 22px 120px;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
 }
-ul img {
-    visibility: hidden;
+.design-img {
+    margin-left: 270px;
+    margin-bottom: 0;
+}
+
+.customise-img {
+    margin-left: 270px;
+    margin-bottom: -2px;
+}
+.free-img {
+    margin-left: 246px;
+    margin-top: 60px;
+}
+
+.second p.lorem {
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "PT Sans", sans-serif;
+    margin-left: 148px;
+    padding-top: 39px;
+}
+
+.lorem-block {
+
+}
+.orange-block {
+    background-color: rgb(236,158,3);
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 40px;
+    color: #ffffff;
+    margin-left: 146px;
+    margin-top: 36px;
+    padding: 18px 39px 29px 31px;
+    font-family: "SegoeWP";
+    position: relative;
+    float: left;
+}
+
+.cross {
+    position: absolute;
+    left: 336px;
+    top: 222px;
+}
+
+.video-lorem {
+    margin-left: 0;
+    margin-top: 36px;
+}
+.video-lorem[poster]{
+    object-fit: cover;
+    /* object-position: -150px 0px; */
+}
+@media screen and (max-width: 580px) {
+    header {
+        background: url("image/Shape\ 8\ copy\ 3.svg");
+    }
 }
