@@ -15,8 +15,8 @@ main {
 
 header {
     height: 10rem;
-    
-    background: url("image/Layer\ 20@1X.png");
+    width: 100%;
+    background: url("image/header.png");
     background-size: cover;
 }
 header h1 {
@@ -107,10 +107,15 @@ header h1 {
 }
 .video-container {
     height: 33rem;
-    background: url("image/Layer\ 20@1X.png") 0 -10rem;
+    background: url("image/mainfirst.png");
+    width: 100%;
     background-size: cover;
     position: relative;
     box-shadow: 0px 0px 15px #000;
+
+}
+.video-element {
+    position: relative;
 }
 video{
     margin-top: 44px;
@@ -268,7 +273,9 @@ video{
     margin-left: 246px;
     margin-top: 60px;
 }
-
+.lorem-block {
+    position: relative;
+}
 .second p.lorem {
     font-size: 40px;
     letter-spacing: 0px;
@@ -278,9 +285,6 @@ video{
     padding-top: 39px;
 }
 
-.lorem-block {
-
-}
 .orange-block {
     background-color: rgb(236,158,3);
     font-size: 30px;
@@ -307,10 +311,103 @@ video{
 }
 .video-lorem[poster]{
     object-fit: cover;
-    /* object-position: -150px 0px; */
+    object-position: -35px 0px;
 }
-@media screen and (max-width: 580px) {
+.play-ellipse2 {
+    opacity: 0.9;
+    position: absolute;
+    top: 134px;
+    left: 647px;
+} 
+.play-triangle2 {
+   position: absolute;
+   top: 151px;
+   left: 674px;
+}
+
+.twitter-block {
+    background-color: rgb(236,158,3);
+    margin-left: 881px;
+    margin-top: -248px;
+    margin-right: 150px;
+    padding: 64px 0 20px 85px;
+    position: relative;
+}
+.cross2 {
+    position: absolute;
+    left: 326px;
+    top: 221px;
+}
+.twitter-block span {
+    position: absolute;
+    font-family: "SegoeWP";
+    font-size: 25px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    top: 16px;
+    left: 302px;
+}
+.day-april p {
+    width: 105px;
+    height: 55px;
+    background-color: rgb(221,177,1);
+    margin-left: 146px;
+    text-align: center;
+    font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 27px;
+    color: #b26529;
+    font-family: "Segoe UI";
+    padding: 18px 10px;
+}
+.day-april p span {
+    font-size: 55px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-weight: bold;
+}
+
+.slider-container {
+    width: 69%;
+    height: 20px;
+    margin-top: 45px;
+    margin-left: 225px;
+    
+}
+.slider {
+    width: 100%;
+    height: 15px;
+    -webkit-appearance: none;
+    border-radius: 5px;
+    background-color: rgb(249,226,131);
+    opacity: 0.9;
+    outline: none;
+    cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 205px;
+    height: 15px;
+    background-color: rgb(236,158,3);
+    border-radius: 5px;
+}
+@media screen and (max-width: 1300px) {
+    .twitter-block,
+    .video-container h1 {
+        display: none;
+    }
+}
+@media screen and (max-width: 620px) {
+    .video-element {
+        margin-left: -160px;
+        z-index: 2;
+    }
+}
+/* @media screen and (max-width: 580px) {
     header {
         background: url("image/Shape\ 8\ copy\ 3.svg");
     }
-}
+} */
+
