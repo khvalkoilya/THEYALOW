@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 119 119" width="119" height="119">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #f5c506 } 
+	</style>
+	<g id="section2">
+		<path id="Ellipse 3" class="shp0" d="M60 2C92.03 2 118 27.97 118 60C118 92.03 92.03 118 60 118C27.97 118 2 92.03 2 60C2 27.97 27.97 2 60 2Z" />
+	</g>
+</svg>
