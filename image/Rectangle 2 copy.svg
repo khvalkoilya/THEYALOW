@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 458 64" width="458" height="64">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #f5c506 } 
+	</style>
+	<g id="menu">
+		<path id="Rectangle 2 copy" class="shp0" d="M2 1L457 1L457 63L2 63L2 1ZM2 2.51" />
+	</g>
+</svg>

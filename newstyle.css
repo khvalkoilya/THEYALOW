@@ -114,6 +114,10 @@ header h1 {
     box-shadow: 0px 0px 15px #000;
 
 }
+.video-element video {
+    width: 584px;
+    height: 400px;
+}
 .video-element {
     position: relative;
 }
@@ -304,6 +308,9 @@ video{
     left: 336px;
     top: 222px;
 }
+ .cross:hover {
+     top: 217px;
+ }
 
 .video-lorem {
     margin-left: 0;
@@ -337,6 +344,9 @@ video{
     position: absolute;
     left: 326px;
     top: 221px;
+}
+.cross2:hover {
+    top: 216px;
 }
 .twitter-block span {
     position: absolute;
@@ -476,17 +486,174 @@ video{
 
 
 
-@media screen and (max-width: 1300px) {
-    .twitter-block,
-    .video-container h1 {
-        display: none;
-    }
-}
 @media screen and (max-width: 620px) {
+    header {
+        height: 58px;
+        background: none;
+        background-color: rgb(73,73,73);
+    }
+    header h1 {
+        padding-left: 51px;
+        padding-top: 30px;
+        font-size: 18px;
+        
+    }
+    .logo-container, .nav-container {
+        margin-left: 0px;
+    }
+    .logo-container{
+        position: relative;
+        width: 36px;
+        padding-top: 9px;
+        margin-left: -102px;
+    }
+    .logo-container img:first-child {
+        width: 38px;
+    }
+    .logo2 {
+        top: 9px;
+        width: 38px;
+        left: 113px;
+        position: absolute;
+    }
+
+    .topnav {
+        top: 15px;
+        left: 170px;
+        width: 436px;
+        height: 60px;
+    }
+    .topnav a{
+        font-size: 14px;
+        padding: 22px 41px;
+    }
+    .about {
+        top: 35px;
+        left: 185px;
+    }
+    .services{
+        top: 35px;
+        left: 336px;
+    }
+    .contact{
+        top: 36px;
+        left: 474px;
+    }
+
+
+    .nav-container {
+        padding-left: 170px;
+        margin-top: -55px;
+    }
+    .nav2 {
+        left: 170px;
+        top: 30px;
+        opacity: 1;
+    }
+    main .video-container{
+        height: 290px;
+        background: none;
+        background-color: rgb(73,73,73);
+    }
+    .video-element video {
+        width: 610px;
+        height: 290px;
+    }
     .video-element {
-        margin-left: -160px;
+        margin-top: -45px;
+        margin-left: -180px;
         z-index: 2;
     }
+    .play-ellipse {
+        top: 159px;
+        left: 445px;
+   } 
+   .play-triangle{
+        top: 177px;
+        left: 473px;
+   }
+   .record-opacity{
+        top: 305px;
+        left: 311px;
+        width: 360px;
+   }
+   .record-contrast{
+        top: 293px;
+        left: 300px;
+        width: 374px;
+   }
+   .play-small-back{
+        top: 296px;
+        left: 255px;
+   }
+   .play-small-button{
+        top: 299px;
+        left: 265px;
+   }
+   .volume{
+        top: 303px;
+        left: 698px;
+   }
+   .video-container video[poster]{
+        object-fit: none;
+        object-position: -110px -10px;
+   }
+
+
+
+
+
+   main .menu,
+   main .second {
+        height: 420px;
+        box-shadow: none;
+        background: none;
+        background-color: white;
+   }    
+    .menu ul li {
+        font-size: 19px;
+        letter-spacing: 0px;
+        color: #000000;
+        font-family: "Segoe UI";
+        font-weight: 300;
+        text-align: center;
+    }
+    .design {
+        position: absolute;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray; 
+        left: 16px;
+        top: 2px;
+        padding: 157px 75px 39px 93px;
+    }
+    .customise {
+        position: absolute;
+        left: 508px;
+        top: -1px;
+        padding: 161px 101px 38px 119px;
+    }
+    .free {
+        position: absolute;
+        left: 869px;
+        top: 0px;
+        padding: 161px 137px 22px 120px;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+    }
+    .design-img {
+        margin-left: 270px;
+        margin-bottom: 0;
+    }
+
+    .customise-img {
+        margin-left: 270px;
+        margin-bottom: -2px;
+    }
+    .free-img {
+        margin-left: 246px;
+        margin-top: 60px;
+    }
+
 }
 /* @media screen and (max-width: 580px) {
     header {
