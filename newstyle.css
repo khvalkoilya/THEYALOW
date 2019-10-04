@@ -1,14 +1,17 @@
 @font-face {
     font-family: SegoeWP;
     src: url("image/ofont.ru_Segoe WP.ttf"); 
-   }
+}
+
 html {
     font-size: 14px;
 }
+
 body {
     width: 100%;
     margin: 0 auto;
 }
+
 main {
     overflow: hidden;
 }
@@ -19,6 +22,7 @@ header {
     background: url("image/header.png");
     background-size: cover;
 }
+
 header h1 {
     margin-top: -58px;
     padding-left: 243px;
@@ -29,19 +33,23 @@ header h1 {
     font-style: italic;
     
 }
+
 .logo-container, .nav-container {
     margin-left: 40px;
 }
-.logo-container{
+
+.logo-container {
     position: relative;
     padding-top: 36px;
     padding-left: 113px;
 }
+
 .logo2 {
     top: 34px;
     left: 110px;
     position: absolute;
 }
+
 .nav-container {
     position: relative;
     width: 453px;
@@ -49,12 +57,14 @@ header h1 {
     padding-left: 721px;
     margin-top: -25px;
 }
+
 .nav2 {
     top: -4px;
     left: 717px;
     opacity: 0.5;
     position: absolute;  
 }
+
 .nav3 {
     top: -8px;
     left: 711px;
@@ -73,7 +83,8 @@ header h1 {
     align-items: center;
 
 }
-.topnav a{
+
+.topnav a {
     text-decoration: none;
     font-family: "SegoeWP";
     font-size: 15.5px;
@@ -82,29 +93,35 @@ header h1 {
     text-align: center;
     padding: 13px 41px;
 }
+
 .about {
     top: 12px;
     left: 733px;
     position: absolute;
 }
-.services{
+
+.services {
     top: 12px;
     left: 890px;
     position: absolute;
 }
-.contact{
+
+.contact {
     top: 12px;
     left: 1034px;
     position: absolute;
 }
+
 .middle-border {
     border-left: 1px solid rgb(185,148,3);
     border-right: 1px solid rgb(185,148,3);
 }
+
 .topnav a:hover{
     background-color: rgb(77, 74, 66);
     color: rgb(185,148,3);
 }
+
 .video-container {
     height: 33rem;
     background: url("image/mainfirst.png");
@@ -112,16 +129,18 @@ header h1 {
     background-size: cover;
     position: relative;
     box-shadow: 0px 0px 15px #000;
-
 }
+
 .video-element video {
     width: 584px;
     height: 400px;
 }
+
 .video-element {
     position: relative;
 }
-video{
+
+video {
     margin-top: 44px;
     margin-left: 156px;
 }
@@ -145,7 +164,6 @@ video{
     box-shadow: 0px 0px 15px #000;
     height: 5rem;
     background: url("image/Layer\ 31@1X.png");
-    
 }
 
 .video-container video[poster]{
@@ -169,18 +187,21 @@ video{
     left: 242px;
     width: 430px;
 }
-.record-contrast{
+
+.record-contrast {
     position: absolute;
     top: 331px;
     left: 239px;
     width: 436px;
 }
-.play-small-back{
+
+.play-small-back {
     position: absolute;
     top: 336px;
     left: 191px;
 }
-.play-small-button{
+
+.play-small-button {
     width: 10px;
     height: 18px;
     position: absolute;
@@ -188,11 +209,13 @@ video{
     left: 200px;
     opacity: 0.5;
 }
-.volume{
+
+.volume {
     position: absolute;
     top: 343px;
     left: 707px;
 }
+
 .video-container h1 {
     font-size: 64px;
     letter-spacing: 2px;
@@ -205,35 +228,41 @@ video{
     margin-top: -325px;
     margin-left: 607px;
 }
+
 .video-container h1 span {
     color:#f5c506;
 }
-.switch-back1{
+
+.switch-back1 {
     position: absolute;
     top: 182px;
     left: 1px;
 }
+
 .switch-back2 {
     position: absolute;
     top: 182px;
     left: 1348px;
 }
-.switch-pointer1{
+
+.switch-pointer1 {
     position: absolute;
     top: 202px;
     left: 9px;
-
 }
+
 .switch-pointer2 {
     position: absolute;
     top: 199px;
     left: 1359px;
 }
+
 .menu ul {
     display:flex;
     justify-content: space-around;
     position: relative;
 }
+
 .menu ul li {
     font-size: 29px;
     letter-spacing: 0px;
@@ -242,6 +271,7 @@ video{
     font-weight: 300;
     text-align: center;
 }
+
 .design {
     position: absolute;
     border-left: 1px solid gray;
@@ -250,12 +280,14 @@ video{
     top: 2px;
     padding: 157px 75px 39px 93px;
 }
+
 .customise {
     position: absolute;
     left: 508px;
     top: -1px;
     padding: 161px 101px 38px 119px;
 }
+
 .free {
     position: absolute;
     left: 869px;
@@ -264,6 +296,7 @@ video{
     border-left: 1px solid gray;
     border-right: 1px solid gray;
 }
+
 .design-img {
     margin-left: 270px;
     margin-bottom: 0;
@@ -273,13 +306,16 @@ video{
     margin-left: 270px;
     margin-bottom: -2px;
 }
+
 .free-img {
     margin-left: 246px;
     margin-top: 60px;
 }
+
 .lorem-block {
     position: relative;
 }
+
 .second p.lorem {
     font-size: 40px;
     letter-spacing: 0px;
@@ -303,29 +339,39 @@ video{
     float: left;
 }
 
+.mobile-text {
+    display: none;
+}
+
 .cross {
     position: absolute;
     left: 336px;
     top: 222px;
 }
- .cross:hover {
-     top: 217px;
- }
+
+.cross:hover {
+    top: 217px;
+}
 
 .video-lorem {
     margin-left: 0;
     margin-top: 36px;
+    width: 335px;
+    height: 247px;
 }
+
 .video-lorem[poster]{
     object-fit: cover;
     object-position: -35px 0px;
 }
+
 .play-ellipse2 {
     opacity: 0.9;
     position: absolute;
     top: 134px;
     left: 647px;
 } 
+
 .play-triangle2 {
    position: absolute;
    top: 151px;
@@ -340,14 +386,17 @@ video{
     padding: 64px 0 20px 85px;
     position: relative;
 }
+
 .cross2 {
     position: absolute;
     left: 326px;
     top: 221px;
 }
+
 .cross2:hover {
     top: 216px;
 }
+
 .twitter-block span {
     position: absolute;
     font-family: "SegoeWP";
@@ -357,6 +406,11 @@ video{
     top: 16px;
     left: 302px;
 }
+
+.mobile-twitter-container {
+    display: none;
+}
+
 .day-april p {
     width: 105px;
     height: 55px;
@@ -370,6 +424,7 @@ video{
     font-family: "Segoe UI";
     padding: 18px 10px;
 }
+
 .day-april p span {
     font-size: 55px;
     letter-spacing: 1px;
@@ -385,6 +440,7 @@ video{
     margin-left: 225px;
     
 }
+
 .slider {
     width: 100%;
     height: 15px;
@@ -403,6 +459,7 @@ video{
     background-color: rgb(236,158,3);
     border-radius: 5px;
 }
+
 .conclusion-title {
     font-size: 43px;
     color: #f5c506;
@@ -411,7 +468,6 @@ video{
     text-align: center;
     letter-spacing: 2px;
     padding-top: 47px;
-    
 }
 
 .conclusion .screens-container {
@@ -422,14 +478,17 @@ video{
     margin-left: 167px;
     margin-top: 58px;
 }
+
 .tablet-img {
     margin-left: 25px;
     margin-bottom: 43px;
 }
+
 .mobile-img {
     margin-left: 22px;
     margin-bottom: 43px;
 }
+
 .text-into-circle {
     font-size: 16px;
     letter-spacing: 0px;
@@ -442,11 +501,13 @@ video{
     z-index: 3;
 
 }
+
 .circle-with-text {
     position: absolute;
     left: 145px;
     top: 10px;
 }
+
 .conclusion-ul {
     float: right;
     margin-top: 105px;
@@ -466,6 +527,7 @@ video{
     padding-top: 7px;
     padding-left: 148px;
 }
+
 .logo-footer2 {
     top: 7px;
     left: 148px;
@@ -480,11 +542,7 @@ video{
     color: #ffffff;
     font-family: "Lucida Sans";
     font-style: italic;
-    
 }
-
-
-
 
 @media screen and (max-width: 620px) {
     header {
@@ -492,24 +550,29 @@ video{
         background: none;
         background-color: rgb(73,73,73);
     }
+
     header h1 {
         padding-left: 51px;
         padding-top: 30px;
         font-size: 18px;
         
     }
+
     .logo-container, .nav-container {
         margin-left: 0px;
     }
-    .logo-container{
+
+    .logo-container {
         position: relative;
         width: 36px;
         padding-top: 9px;
         margin-left: -102px;
     }
+
     .logo-container img:first-child {
         width: 38px;
     }
+
     .logo2 {
         top: 9px;
         width: 38px;
@@ -523,141 +586,355 @@ video{
         width: 436px;
         height: 60px;
     }
+
     .topnav a{
         font-size: 14px;
         padding: 22px 41px;
     }
+
     .about {
         top: 35px;
         left: 185px;
     }
-    .services{
+
+    .services {
         top: 35px;
         left: 336px;
     }
-    .contact{
+
+    .contact {
         top: 36px;
         left: 474px;
     }
-
 
     .nav-container {
         padding-left: 170px;
         margin-top: -55px;
     }
+
     .nav2 {
         left: 170px;
         top: 30px;
         opacity: 1;
     }
-    main .video-container{
+
+    main .video-container {
         height: 290px;
         background: none;
         background-color: rgb(73,73,73);
     }
+
     .video-element video {
         width: 610px;
         height: 290px;
     }
+
     .video-element {
         margin-top: -45px;
         margin-left: -180px;
         z-index: 2;
     }
+
     .play-ellipse {
         top: 159px;
         left: 445px;
-   } 
-   .play-triangle{
+    }
+
+    .play-triangle {
         top: 177px;
         left: 473px;
-   }
-   .record-opacity{
+    }
+
+    .record-opacity {
         top: 305px;
         left: 311px;
         width: 360px;
-   }
-   .record-contrast{
+     }
+    
+    .record-contrast {
         top: 293px;
         left: 300px;
         width: 374px;
-   }
-   .play-small-back{
+    }
+   .play-small-back {
         top: 296px;
         left: 255px;
-   }
-   .play-small-button{
+    }
+
+    .play-small-button {
         top: 299px;
         left: 265px;
-   }
-   .volume{
+    }
+
+    .volume {
         top: 303px;
         left: 698px;
-   }
-   .video-container video[poster]{
+    }
+
+    .video-container video[poster] {
         object-fit: none;
         object-position: -110px -10px;
-   }
+    }
 
+    main {
+        height: 1320px;
+    }
 
-
-
-
-   main .menu,
-   main .second {
-        height: 420px;
+    main .menu {
+        height: 210px;
         box-shadow: none;
         background: none;
         background-color: white;
-   }    
+    }
+
+    main .second {
+        height: 440px;
+        box-shadow: none;
+        background: none;
+        background-color: white;
+    }
+
+    main .conclusion {
+        height: 460px;
+    }
+
+    .down {
+        height: 40px;
+    }
+
     .menu ul li {
-        font-size: 19px;
-        letter-spacing: 0px;
+        font-size: 20px;
+        letter-spacing: 1px;
         color: #000000;
         font-family: "Segoe UI";
         font-weight: 300;
         text-align: center;
     }
+
     .design {
-        position: absolute;
-        border-left: 1px solid gray;
-        border-right: 1px solid gray; 
-        left: 16px;
-        top: 2px;
-        padding: 157px 75px 39px 93px;
+        left: 1px;
+        top: -22px;
+        padding: 180px 1px 39px 11px;
+        border: none;
     }
+
     .customise {
-        position: absolute;
-        left: 508px;
-        top: -1px;
-        padding: 161px 101px 38px 119px;
+        left: 236px;
+        top: 145px;
+        padding: 12px 21px 9px 9px;
     }
+
     .free {
-        position: absolute;
-        left: 869px;
-        top: 0px;
-        padding: 161px 137px 22px 120px;
-        border-left: 1px solid gray;
-        border-right: 1px solid gray;
+        left: 439px;
+        top: 114px;
+        padding: 44px 3px 22px 9px;
+        border: none;
     }
+
+    .function {
+        display: none;
+    }
+
     .design-img {
-        margin-left: 270px;
-        margin-bottom: 0;
+        margin-left: 33px;
+        margin-bottom: -5px;
+        padding: 10px 10px 10px 10px;
+        width: 80px;
     }
 
     .customise-img {
-        margin-left: 270px;
-        margin-bottom: -2px;
-    }
-    .free-img {
-        margin-left: 246px;
-        margin-top: 60px;
+        margin-left: 130px;
+        margin-bottom: -5px;
+        width: 65px;
     }
 
-}
-/* @media screen and (max-width: 580px) {
-    header {
-        background: url("image/Shape\ 8\ copy\ 3.svg");
+    .free-img {
+        margin-left: 14px;
+        margin-top: 77px;
+        padding-left: 100px;
+        width: 63px;
     }
-} */
+
+    .orange-block {
+        font-size: 26px;
+        line-height: 31px;
+        margin-left: 8px;
+        margin-top: 134px;
+        padding: 14px 33px 16px 22px;
+
+    }
+    
+    .mobile-text {
+        display: block;
+    }
+
+    .desktop-text {
+        display: none;
+    }
+
+    .cross {
+        left: 250px;
+        top: 184px;
+    }
+    
+    .cross:hover {
+        top: 180px;
+    }
+
+    .lorem-block {
+        position: relative;
+    }
+
+    .video-lorem {
+        margin-left: 10px;
+        margin-top: 0;
+        width: 285px;
+        height: 213px;
+        position: absolute;
+        top: 135px;
+    }
+    
+    .play-ellipse2 {
+        top: 219px;
+        left: 407px;
+        width: 56px;
+    } 
+    
+    .play-triangle2 {
+        top: 233px;
+        left: 429px;
+        width: 16px;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .day-april{
+        display: none;
+    }
+
+    .twitter-block {
+        height: 271px;
+    }
+
+    .second .mobile-twitter-container {
+        display: block;
+        position: relative;
+        height: 214px;
+        background-color: rgb(245,197,7);
+    }
+    
+    .mobile-twitter-container .twi-img {
+        width: 155px;
+        margin-top: 53px;
+        margin-left: 69px;
+        float: left;
+    }
+
+    .twi-message-areas {
+        padding-top: 20px;
+        margin-left: 287px;
+    }
+
+    .twi-area-message2 {
+        margin-top: 8px;
+    }
+
+    .twi-area-message3 {
+        margin-top: 7px;
+    }
+
+    .twi-messages {
+        position: absolute;
+        left: 320px;
+        top: 30px;
+    }
+    
+    .twi-messages p {
+        font-size: 12px;
+        letter-spacing: 0px;
+        color: #8f8e8e;
+        font-family: "Arial";
+    }
+
+    .place-between-button {
+        display: block;
+        border-radius: 10px 0 0 10px;
+        border: 1px solid gray;
+        padding: 5px 11px;
+        position: absolute;
+        left: 306px;
+        top: 174px;
+    }
+
+    .button-twi {
+        border-radius: 0 10px 10px 0px;
+        color: #fff;
+        position: absolute;
+        left: 488px;
+        top: 174px;
+        padding: 5px 13px;
+        border: 1px solid gray;
+        background-color: rgb(221,156,26);
+    }
+
+    .conclusion-title {
+        font-size: 35px;
+        letter-spacing: 2px;
+        padding-top: 33px;
+    }
+
+    .desktop-img {
+        width: 290px;
+        margin-left: 54px;
+        margin-top: 73px;
+    }
+    
+    .tablet-img {
+        margin-left: 20px;
+        width: 120px;
+        margin-bottom: 32px;
+    }
+    
+    .mobile-img {
+        margin-left: 16px;
+        width: 36px;
+        margin-bottom: 35px;
+    }
+    
+    .text-into-circle {
+        font-size: 13px;
+        letter-spacing: 0px;
+        left: 30px;
+        top: 85px;
+    }
+    
+    .circle-with-text {
+        width: 110px;
+        left: 22px;
+        top: 32px;
+    }
+
+    .logo-container-footer{
+        padding-top: 2px;
+        padding-left: 58px;
+    }
+
+    .logo-container-footer img:first-child {
+        width: 29px;
+    }
+
+    .logo-footer2 {
+        width: 29px;
+        top: 2px;
+        left: 58px;
+    }
+    
+    .down p {
+        padding-top: 21px;
+        padding-left: 96px;
+        font-size: 15px;
+    }
+}
 
